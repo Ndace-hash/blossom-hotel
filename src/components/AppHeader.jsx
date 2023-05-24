@@ -1,6 +1,6 @@
 const AppHeader = () => {
   return (
-    <header className="text-white flex md:justify-between md:items-center md:py-5 border-b-2 border-[rgba(255,255,255,.1)]">
+    <header className="text-white flex md:justify-between md:items-center md:py-5 border-b-2 border-[rgba(255,255,255,.1)] sticky top-0 left-0 z-40 bg-[#120601]">
       <div>
         <h1 className="uppercase font-bold text-xl">
           Blossom<span className="text-orange-400">.</span>
