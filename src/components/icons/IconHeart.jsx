@@ -1,4 +1,4 @@
-export function PhHeartLight(props) {
+const PhHeartLight = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -13,4 +13,6 @@ export function PhHeartLight(props) {
       ></path>
     </svg>
   );
-}
+};
+
+export default PhHeartLight;
